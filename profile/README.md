@@ -32,7 +32,7 @@ Quote in the chat, then review the order and pay on makepartsnow.com. Nothing is
 |---|---|
 | Claude, ChatGPT | Add a custom connector with `https://makepartsnow.com/mcp/assistant` |
 | OpenClaw | `openclaw plugins install clawhub:@makepartsnow/make-parts-now` ([plugin source](https://github.com/makepartsnow/makepartsnow-openclaw)) |
-| Hermes Agent | Add `https://makepartsnow.com/mcp/assistant?client=hermes` as an MCP server ([setup](https://makepartsnow.com/developers#ai-assistants)) |
+| Hermes Agent | Our plugin, [makepartsnow-hermes](https://github.com/makepartsnow/makepartsnow-hermes), is in review for the Hermes plugin catalog. Until then, add `https://makepartsnow.com/mcp/assistant?client=hermes` as an MCP server ([setup](https://makepartsnow.com/developers#ai-assistants)) |
 
 Then ask something like "Quote 25 of this bracket in black nylon."
 
@@ -45,3 +45,4 @@ Then ask something like "Quote 25 of this bracket in black nylon."
 ## Contact
 
 Questions about an order or a part: [makepartsnow.com/contact](https://makepartsnow.com/contact) or orders@makepartsnow.com.
+
