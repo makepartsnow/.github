@@ -30,7 +30,8 @@ Quote in the chat, then review the order and pay on makepartsnow.com. Nothing is
 
 | App | How to connect |
 |---|---|
-| Claude, ChatGPT | Add a custom connector with `https://makepartsnow.com/mcp/assistant` |
+| Claude | Add a custom connector with `https://makepartsnow.com/mcp/assistant`. Claude Code: `/plugin install make-parts-now --marketplace makepartsnow/makepartsnow-claude` ([plugin source](https://github.com/makepartsnow/makepartsnow-claude); in review for the Claude directory) |
+| ChatGPT | Add a custom connector with `https://makepartsnow.com/mcp/assistant` |
 | OpenClaw | `openclaw plugins install clawhub:@makepartsnow/make-parts-now` ([plugin source](https://github.com/makepartsnow/makepartsnow-openclaw)) |
 | Hermes Agent | Our plugin, [makepartsnow-hermes](https://github.com/makepartsnow/makepartsnow-hermes), is in review for the Hermes plugin catalog. Until then, add `https://makepartsnow.com/mcp/assistant?client=hermes` as an MCP server ([setup](https://makepartsnow.com/developers#ai-assistants)) |
 
