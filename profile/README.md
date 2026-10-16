@@ -7,7 +7,7 @@
 <p align="center">
   <b>Make Parts Now</b> (<a href="https://makepartsnow.com">MakePartsNow.com</a>) is a US online manufacturing service for custom parts and prototypes.<br>
   Upload a CAD file and get an instant quote with real ship dates: SLS and FDM 3D printing, and CNC-machined aluminum and brass, made in our Las Vegas, Nevada shop.<br>
-  Order on the website, from AI assistants like Claude and ChatGPT, or through our API.
+  Order on the website, from AI assistants like Claude, ChatGPT, Cursor and Gemini CLI, or through our API.
 </p>
 
 <p align="center">
@@ -45,6 +45,8 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 |---|---|
 | **Claude** | Add a custom connector with `https://makepartsnow.com/mcp/assistant`. Claude shows a Make Parts Now upload box and quote card in the chat. Claude Code: `/plugin install make-parts-now --marketplace makepartsnow/makepartsnow-claude` ([plugin](https://github.com/makepartsnow/makepartsnow-claude), in review for the Claude directory) |
 | **ChatGPT** | Add a custom connector with `https://makepartsnow.com/mcp/assistant` |
+| **Cursor** | Install the [Make Parts Now plugin](https://cursor.directory/plugins/make-parts-now-3d-printing-cnc-machining-quotes) from Cursor Directory ([plugin](https://github.com/makepartsnow/makepartsnow-cursor)). Cursor's agent quotes the CAD files in your project and uploads them itself |
+| **Gemini CLI** | `gemini extensions install https://github.com/makepartsnow/makepartsnow-gemini` ([extension](https://github.com/makepartsnow/makepartsnow-gemini)), then `/make-parts-now:quote ./bracket.step 25` |
 | **OpenClaw** | `openclaw plugins install clawhub:@makepartsnow/make-parts-now` ([plugin](https://github.com/makepartsnow/makepartsnow-openclaw)) |
 | **Hermes Agent** | Add `https://makepartsnow.com/mcp/assistant?client=hermes` as an MCP server ([setup](https://makepartsnow.com/developers#ai-assistants)). Our [plugin](https://github.com/makepartsnow/makepartsnow-hermes) is in review for the Hermes plugin catalog |
 
@@ -59,6 +61,8 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 | Repository | What it is |
 |---|---|
 | [makepartsnow-claude](https://github.com/makepartsnow/makepartsnow-claude) | Claude plugin: 3D printing and CNC machining quotes in Claude chat, Cowork and Claude Code |
+| [makepartsnow-cursor](https://github.com/makepartsnow/makepartsnow-cursor) | Cursor plugin, on [Cursor Directory](https://cursor.directory/plugins/make-parts-now-3d-printing-cnc-machining-quotes) |
+| [makepartsnow-gemini](https://github.com/makepartsnow/makepartsnow-gemini) | Gemini CLI extension |
 | [makepartsnow-hermes](https://github.com/makepartsnow/makepartsnow-hermes) | Hermes Agent plugin |
 | [makepartsnow-openclaw](https://github.com/makepartsnow/makepartsnow-openclaw) | OpenClaw plugin, on ClawHub |
 
