@@ -47,8 +47,8 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 | **ChatGPT** | Add a custom connector with `https://makepartsnow.com/mcp/assistant` |
 | **Cursor** | Install the [Make Parts Now plugin](https://cursor.directory/plugins/make-parts-now-3d-printing-cnc-machining-quotes) from Cursor Directory ([plugin](https://github.com/makepartsnow/makepartsnow-cursor)). Cursor's agent quotes the CAD files in your project and uploads them itself |
 | **Gemini CLI** | `gemini extensions install https://github.com/makepartsnow/makepartsnow-gemini` ([extension](https://github.com/makepartsnow/makepartsnow-gemini)), then `/make-parts-now:quote ./bracket.step 25` |
-| **OpenClaw** | `openclaw plugins install clawhub:@makepartsnow/make-parts-now` ([plugin](https://github.com/makepartsnow/makepartsnow-openclaw)) |
-| **Hermes Agent** | `hermes plugins install make-parts-now`, then `hermes plugins enable make-parts-now` ([plugin](https://github.com/makepartsnow/makepartsnow-hermes), in the Hermes plugin catalog) |
+| **OpenClaw** | Install the [Make Parts Now plugin](https://clawhub.ai/makepartsnow/plugins/make-parts-now) from ClawHub: `openclaw plugins install clawhub:@makepartsnow/make-parts-now` ([plugin](https://github.com/makepartsnow/makepartsnow-openclaw)) |
+| **Hermes Agent** | Install the [Make Parts Now plugin](https://hermes-agent.nousresearch.com/docs/plugins/make-parts-now) from the Hermes plugin catalog: `hermes plugins install make-parts-now`, then `hermes plugins enable make-parts-now` ([plugin](https://github.com/makepartsnow/makepartsnow-hermes)) |
 
 ## Manufacturing API and MCP server for developers
 
@@ -66,8 +66,8 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 | [makepartsnow-cursor](https://github.com/makepartsnow/makepartsnow-cursor) | Cursor plugin, on [Cursor Directory](https://cursor.directory/plugins/make-parts-now-3d-printing-cnc-machining-quotes) |
 | [makepartsnow-gemini](https://github.com/makepartsnow/makepartsnow-gemini) | Gemini CLI extension |
 | [makepartsnow-grok](https://github.com/makepartsnow/makepartsnow-grok) | Grok Build plugin, in review for the xAI marketplace |
-| [makepartsnow-hermes](https://github.com/makepartsnow/makepartsnow-hermes) | Hermes Agent plugin, in the Hermes plugin catalog |
-| [makepartsnow-openclaw](https://github.com/makepartsnow/makepartsnow-openclaw) | OpenClaw plugin, on ClawHub |
+| [makepartsnow-hermes](https://github.com/makepartsnow/makepartsnow-hermes) | Hermes Agent plugin, in the [Hermes plugin catalog](https://hermes-agent.nousresearch.com/docs/plugins/make-parts-now) |
+| [makepartsnow-openclaw](https://github.com/makepartsnow/makepartsnow-openclaw) | OpenClaw plugin, on [ClawHub](https://clawhub.ai/makepartsnow/plugins/make-parts-now) |
 
 ## FAQ
 
