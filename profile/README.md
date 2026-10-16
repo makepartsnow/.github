@@ -48,7 +48,7 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 | **Cursor** | Install the [Make Parts Now plugin](https://cursor.directory/plugins/make-parts-now-3d-printing-cnc-machining-quotes) from Cursor Directory ([plugin](https://github.com/makepartsnow/makepartsnow-cursor)). Cursor's agent quotes the CAD files in your project and uploads them itself |
 | **Gemini CLI** | `gemini extensions install https://github.com/makepartsnow/makepartsnow-gemini` ([extension](https://github.com/makepartsnow/makepartsnow-gemini)), then `/make-parts-now:quote ./bracket.step 25` |
 | **OpenClaw** | `openclaw plugins install clawhub:@makepartsnow/make-parts-now` ([plugin](https://github.com/makepartsnow/makepartsnow-openclaw)) |
-| **Hermes Agent** | Add `https://makepartsnow.com/mcp/assistant?client=hermes` as an MCP server ([setup](https://makepartsnow.com/developers#ai-assistants)). Our [plugin](https://github.com/makepartsnow/makepartsnow-hermes) is in review for the Hermes plugin catalog |
+| **Hermes Agent** | `hermes plugins install make-parts-now`, then `hermes plugins enable make-parts-now` ([plugin](https://github.com/makepartsnow/makepartsnow-hermes), in the Hermes plugin catalog) |
 
 ## Manufacturing API and MCP server for developers
 
@@ -66,7 +66,7 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 | [makepartsnow-cursor](https://github.com/makepartsnow/makepartsnow-cursor) | Cursor plugin, on [Cursor Directory](https://cursor.directory/plugins/make-parts-now-3d-printing-cnc-machining-quotes) |
 | [makepartsnow-gemini](https://github.com/makepartsnow/makepartsnow-gemini) | Gemini CLI extension |
 | [makepartsnow-grok](https://github.com/makepartsnow/makepartsnow-grok) | Grok Build plugin, in review for the xAI marketplace |
-| [makepartsnow-hermes](https://github.com/makepartsnow/makepartsnow-hermes) | Hermes Agent plugin |
+| [makepartsnow-hermes](https://github.com/makepartsnow/makepartsnow-hermes) | Hermes Agent plugin, in the Hermes plugin catalog |
 | [makepartsnow-openclaw](https://github.com/makepartsnow/makepartsnow-openclaw) | OpenClaw plugin, on ClawHub |
 
 ## FAQ
