@@ -55,6 +55,7 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 - **MCP server** for coding agents and MCP clients (Claude Code, Cursor, VS Code): `https://makepartsnow.com/mcp`. Sign in with your website account or use an agent account key. Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers/com.makepartsnow%2Fmanufacturing/versions/latest) as `com.makepartsnow/manufacturing` and on [Smithery](https://smithery.ai/servers/nathan-egs1/MakePartsNow).
 - **REST API** at `https://makepartsnow.com/api/agent/v1`: upload CAD files, get quotes and place orders from your own code, with webhooks for order updates. Pay with a Stripe Checkout link, or let an agent pay in USDC on Base with [x402](https://x402.org).
 - **Agent skill** for coding agents (Claude Code, Codex, Cursor, Gemini CLI and more): `npx skills add makepartsnow/skills` teaches the agent to export CAD, quote it, compare quantities and open checkout through the REST API ([skills](https://github.com/makepartsnow/skills)).
+- **CAD add-ins:** quote the parts you select and open checkout on makepartsnow.com, with no account. Autodesk Fusion: the [Fusion add-in](https://makepartsnow.com/fusion). FreeCAD 1.0+ (beta): clone [makepartsnow-freecad](https://github.com/makepartsnow/makepartsnow-freecad) into your FreeCAD `Mod` folder and restart FreeCAD ([install](https://github.com/makepartsnow/makepartsnow-freecad#install)). Make Parts Now is not affiliated with the FreeCAD project.
 - **Docs:** [developer guide](https://makepartsnow.com/developers), [interactive API docs](https://makepartsnow.com/api/agent/v1/docs), [OpenAPI spec](https://makepartsnow.com/api/agent/v1/openapi.json), [llms.txt](https://makepartsnow.com/llms.txt).
 
 ## Open-source plugins
@@ -64,6 +65,7 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 | [skills](https://github.com/makepartsnow/skills) | Agent skill for any coding agent: `npx skills add makepartsnow/skills` |
 | [makepartsnow-claude](https://github.com/makepartsnow/makepartsnow-claude) | Claude plugin: 3D printing and CNC machining quotes in Claude chat, Cowork and Claude Code |
 | [makepartsnow-cursor](https://github.com/makepartsnow/makepartsnow-cursor) | Cursor plugin, on [Cursor Directory](https://cursor.directory/plugins/make-parts-now-3d-printing-cnc-machining-quotes) |
+| [makepartsnow-freecad](https://github.com/makepartsnow/makepartsnow-freecad) | FreeCAD workbench (beta): instant 3D printing quotes for the selected bodies |
 | [makepartsnow-gemini](https://github.com/makepartsnow/makepartsnow-gemini) | Gemini CLI extension |
 | [makepartsnow-grok](https://github.com/makepartsnow/makepartsnow-grok) | Grok Build plugin, in review for the xAI marketplace |
 | [makepartsnow-hermes](https://github.com/makepartsnow/makepartsnow-hermes) | Hermes Agent plugin, in the [Hermes plugin catalog](https://hermes-agent.nousresearch.com/docs/plugins/make-parts-now) |
