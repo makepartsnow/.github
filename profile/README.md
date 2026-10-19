@@ -56,6 +56,7 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 - **REST API** at `https://makepartsnow.com/api/agent/v1`: upload CAD files, get quotes and place orders from your own code, with webhooks for order updates. Pay with a Stripe Checkout link, or let an agent pay in USDC on Base with [x402](https://x402.org).
 - **Agent skill** for coding agents (Claude Code, Codex, Cursor, Gemini CLI and more): `npx skills add makepartsnow/skills` teaches the agent to export CAD, quote it, compare quantities and open checkout through the REST API ([skills](https://github.com/makepartsnow/skills)).
 - **CAD add-ins:** quote the parts you select and open checkout on makepartsnow.com, with no account. Autodesk Fusion: the [Fusion add-in](https://makepartsnow.com/fusion) ([download](https://github.com/makepartsnow/makepartsnow-fusion/releases/latest)). FreeCAD 1.0+ (beta): the [FreeCAD workbench](https://github.com/makepartsnow/makepartsnow-freecad), installed from Addon Manager as a custom repository or with git ([install](https://github.com/makepartsnow/makepartsnow-freecad#install)). Make Parts Now is not affiliated with the FreeCAD project.
+- **Command line:** `pip install makepartsnow`, then `mpn quote bracket.step:10 --zip 89101` prices STEP and STL files from a terminal, a script or CI, with `--json` output and a link to order on makepartsnow.com. No account or key; Python 3.11+ ([makepartsnow-cli](https://github.com/makepartsnow/makepartsnow-cli), [PyPI](https://pypi.org/project/makepartsnow/)).
 - **Docs:** [developer guide](https://makepartsnow.com/developers), [interactive API docs](https://makepartsnow.com/api/agent/v1/docs), [OpenAPI spec](https://makepartsnow.com/api/agent/v1/openapi.json), [llms.txt](https://makepartsnow.com/llms.txt).
 
 ## Open-source plugins
@@ -64,6 +65,7 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 |---|---|
 | [skills](https://github.com/makepartsnow/skills) | Agent skill for any coding agent: `npx skills add makepartsnow/skills` |
 | [makepartsnow-claude](https://github.com/makepartsnow/makepartsnow-claude) | Claude plugin: 3D printing and CNC machining quotes in Claude chat, Cowork and Claude Code |
+| [makepartsnow-cli](https://github.com/makepartsnow/makepartsnow-cli) | Command-line tool `mpn`: instant 3D printing quotes for STEP and STL files, `pip install makepartsnow` |
 | [makepartsnow-cursor](https://github.com/makepartsnow/makepartsnow-cursor) | Cursor plugin, on [Cursor Directory](https://cursor.directory/plugins/make-parts-now-3d-printing-cnc-machining-quotes) |
 | [makepartsnow-freecad](https://github.com/makepartsnow/makepartsnow-freecad) | FreeCAD workbench (beta): instant 3D printing quotes for the selected bodies |
 | [makepartsnow-fusion](https://github.com/makepartsnow/makepartsnow-fusion) | Autodesk Fusion (Fusion 360) add-in: instant 3D printing quotes for the parts you click; downloads and docs |
