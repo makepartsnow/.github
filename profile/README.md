@@ -44,7 +44,7 @@ Ask for a quote in the chat, then review the order and pay on makepartsnow.com. 
 | AI assistant | How to connect |
 |---|---|
 | **Claude** | Add a custom connector with `https://makepartsnow.com/mcp/assistant`. Claude shows a Make Parts Now upload box and quote card in the chat. Claude Code: `/plugin install make-parts-now --marketplace makepartsnow/makepartsnow-claude` ([plugin](https://github.com/makepartsnow/makepartsnow-claude), in review for the Claude directory) |
-| **ChatGPT** | Add a custom connector with `https://makepartsnow.com/mcp/assistant` |
+| **ChatGPT** | Open [Make Parts Now in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ac6b0603f148191a62de98036e472e1) and choose Try in chat, or find it under Plugins. Attach your CAD file and ask for a quote |
 | **Cursor** | Install the [Make Parts Now plugin](https://cursor.directory/plugins/make-parts-now-3d-printing-cnc-machining-quotes) from Cursor Directory ([plugin](https://github.com/makepartsnow/makepartsnow-cursor)). Cursor's agent quotes the CAD files in your project and uploads them itself |
 | **Gemini CLI** | `gemini extensions install https://github.com/makepartsnow/makepartsnow-gemini` ([extension](https://github.com/makepartsnow/makepartsnow-gemini)), then `/make-parts-now:quote ./bracket.step 25` |
 | **OpenClaw** | Install the [Make Parts Now plugin](https://clawhub.ai/makepartsnow/plugins/make-parts-now) from ClawHub: `openclaw plugins install clawhub:@makepartsnow/make-parts-now` ([plugin](https://github.com/makepartsnow/makepartsnow-openclaw)) |
